@@ -1,0 +1,16 @@
+# Bỏ qua các file lớn hơn 100MB theo định dạng file
+*.zip
+*.tar.gz
+*.iso
+*.exe
+*.mp4
+*.mov
+
+# Bỏ qua tất cả các file và thư mục khác (mặc định)
+*
+
+# Nhưng không bỏ qua các thư mục (để lưu file trong đó)
+!*/
+
+# Không bỏ qua các file còn lại
+!*
